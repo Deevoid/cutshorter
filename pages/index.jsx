@@ -1,13 +1,5 @@
-import Head from "next/head";
-import Image from "next/image";
-import { FormHeader } from "../components/FormHeader/FormHeader";
 import { Logo } from "../components/Logo/Logo";
-import { Button } from "../components/Button/Button";
 import { ProgressBar } from "../components/ProgressBar/ProgressBar";
-import styles from "../styles/Home.module.css";
-import { Input } from "../components/Input/Input";
-import { CardSelect } from "../components/CardSelect/CardSelect";
-import { SuccessIcon } from "../components/SuccessIcon/SuccessIcon";
 import { useState } from "react";
 import { TemplateOne } from "../components/templates/TemplateOne/TemplateOne";
 import { TemplateTwo } from "../components/templates/TemplateTwo/TemplateTwo";
