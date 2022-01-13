@@ -12,14 +12,14 @@ export const ProgressBar = ({ onChange, step }) => {
                   onChange(index + 1);
                 }}
                 className={`h-8 w-8 rounded-full flex items-center cursor-pointer
-                 justify-center text-white bg-indigo-600`}
+                 justify-center text-white bg-[#664de5]`}
               >
                 {index + 1}
               </div>
               {index < 3 && (
                 <div className="md:w-20 w-14 bg-gray-200 h-[2px]">
                   <div
-                    className={`bg-indigo-600 h-[2px] transition-all duration-100 ${
+                    className={`bg-[#664de5] h-[2px] transition-all duration-100 ${
                       index + 1 < step
                         ? "w-full"
                         : index + 1 === step

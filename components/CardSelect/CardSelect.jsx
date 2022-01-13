@@ -8,14 +8,14 @@ export const CardSelect = () => {
         onClick={() => setSelectedCard(1)}
         className={`card h-[160px] w-[160px] p-4 flex justify-between flex-col 
         md:hover:bg-gray-100  border  rounded-md cursor-pointer
-        ${selectedCard === 1 ? "border-indigo-600" : ""}
+        ${selectedCard === 1 ? "border-[#664de5]" : ""}
         `}
       >
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className={`h-6 w-6 ${
-              selectedCard === 1 ? "fill-indigo-600" : "fill-black"
+              selectedCard === 1 ? "fill-[#664de5]" : "fill-black"
             }`}
             viewBox="0 0 20 20"
             fill="currentColor"
@@ -36,14 +36,14 @@ export const CardSelect = () => {
         onClick={() => setSelectedCard(2)}
         className={`card h-[160px] w-[160px] p-4 flex justify-between flex-col 
         md:hover:bg-gray-100  border  rounded-md cursor-pointer
-        ${selectedCard === 2 ? "border-indigo-600" : ""}
+        ${selectedCard === 2 ? "border-[#664de5]" : ""}
         `}
       >
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className={`h-6 w-6 ${
-              selectedCard === 2 ? "fill-indigo-600" : "fill-black"
+              selectedCard === 2 ? "fill-[#664de5]" : "fill-black"
             }`}
             viewBox="0 0 20 20"
             fill="currentColor"

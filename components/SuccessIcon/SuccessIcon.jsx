@@ -2,7 +2,7 @@ import React from "react";
 
 export const SuccessIcon = () => {
   return (
-    <div className="bg-indigo-600 h-14 w-14 rounded-full flex items-center justify-center">
+    <div className="bg-[#664de5] h-14 w-14 rounded-full flex items-center justify-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-5 w-5 fill-white"

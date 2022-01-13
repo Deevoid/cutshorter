@@ -5,7 +5,7 @@ export const Logo = () => {
     <header className="flex items-center mb-16">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-10  w-10  fill-indigo-600"
+        className="h-10  w-10  fill-[#664de5]"
         viewBox="0 0 20 20"
         fill="currentColor"
       >
