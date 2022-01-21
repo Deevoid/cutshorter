@@ -27,7 +27,7 @@ export const Input = (props) => {
           type="text"
           placeholder={placeholder}
           required
-          className=" bg-white border placeholder-gray-400 border-gray-300 text-gray-900 text-sm rounded-md focus:ring-[#664de5] focus:border-[#664de5] block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-[#664de5] dark:focus:border-[#664de5]"
+          className=" bg-white border placeholder-gray-400 border-gray-300 text-gray-900 text-sm rounded-md focus:ring-[#664de5] focus:border-[#664de5] block w-full p-2.5 "
         />
       ) : (
         <div className="relative w-full">
@@ -43,7 +43,7 @@ export const Input = (props) => {
               id={name}
               name={name}
               placeholder={placeholder}
-              className="flex-grow bg-white border placeholder-gray-400 border-gray-300 text-gray-900 text-sm rounded-tr-md rounded-br-md focus:ring-[#664de5] focus:border-[#664de5]  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-[#664de5] dark:focus:border-[#664de5]"
+              className="flex-grow bg-white border placeholder-gray-400 border-gray-300 text-gray-900 text-sm rounded-tr-md rounded-br-md focus:ring-[#664de5] focus:border-[#664de5]  p-2.5 "
             />
           </div>
         </div>
